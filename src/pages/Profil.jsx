@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import '../dist/css/profil.css';
 
+import foto1 from '../assets/img/foto1.jpg';
+import guruImage from '../assets/img/guru.jpg';
+
 function Profile() {
   return (
     <div className="profile-page">
@@ -16,7 +19,7 @@ function Profile() {
         <Container>
           <Row className="align-items-center">
             <Col md={6}>
-              <Image src="/src/assets/img/foto1.jpg" alt="TP Flamboyan Logo" fluid />
+            <Image src={foto1} alt="TP Flamboyan Logo" fluid />
             </Col>
             <Col md={6}>
               <h2 className="mb-4" style={{ color: '#000000' }}>Tentang Sekolah Kami</h2>
@@ -48,7 +51,7 @@ function Profile() {
               <Card className="border-0 shadow">
                 <Row className="no-gutters">
                   <Col md={4}>
-                    <Image src="/src/assets/img/guru.jpg" alt="Kepala Sekolah TP Flamboyan" fluid className="card-img" />
+                  <Image src={guruImage} alt="Kepala Sekolah TP Flamboyan" fluid className="card-img" />
                   </Col>
                   <Col md={8}>
                     <Card.Body>

@@ -3,6 +3,14 @@ import { Container, Row, Col, Button, Card, Image as BootstrapImage } from 'reac
 import { FaPlayCircle, FaBook, FaPaintBrush, FaBaseballBall } from 'react-icons/fa';
 import '../dist/css/home.css';
 
+import foto1 from '../assets/img/foto1.jpg';
+import foto2 from '../assets/img/foto2.jpg';
+import foto3 from '../assets/img/foto3.jpg';
+import foto4 from '../assets/img/foto4.jpg';
+import foto5 from '../assets/img/foto5.jpg';
+import foto6 from '../assets/img/foto6.jpg';
+
+
 const facilities = [
     { icon: <FaPlayCircle />, title: 'Ruang Kelas', description: 'Memiliki ruang kelas yang luas dan bersih sehingga dapat menciptakan suasana belajar mengajar yang kondusif dan menyenangkan.' },
     { icon: <FaBaseballBall />, title: 'Media Pembelajaran', description: 'Memiliki media-media pembelajaran yang lengkap sebagai sarana penunjang belajar mengajar.' },
@@ -11,12 +19,12 @@ const facilities = [
   ];
 
   const galleryImages = [
-    { src: './src/assets/img/foto1.jpg', alt: 'Gallery image 1' },
-    { src: './src/assets/img/foto2.jpg', alt: 'Gallery image 2' },
-    { src: './src/assets/img/foto4.jpg', alt: 'Gallery image 3' },
-    { src: './src/assets/img/foto3.jpg', alt: 'Gallery image 4' },
-    { src: './src/assets/img/foto5.jpg', alt: 'Gallery image 5' },
-    { src: './src/assets/img/foto6.jpg', alt: 'Gallery image 6' },
+    { src: foto1, alt: 'Gallery image 1' },
+    { src: foto2, alt: 'Gallery image 2' },
+    { src: foto4, alt: 'Gallery image 3' },
+    { src: foto3, alt: 'Gallery image 4' },
+    { src: foto5, alt: 'Gallery image 5' },
+    { src: foto6, alt: 'Gallery image 6' },
   ];
 
   function Home() {
