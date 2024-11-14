@@ -1,0 +1,47 @@
+.navbar-custom {
+  background-color: #000B58 !important;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ffffff !important;
+  position: relative;
+}
+
+.navbar-custom .nav-link {
+  padding: 0.5rem 1rem;
+  margin: 0 0.2rem;
+}
+
+.navbar-custom .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover::after,
+.navbar-custom .nav-link.active::after {
+  width: 100%;
+}
+
+/* Ensure the toggle button is visible on mobile */
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: rgba(255,255,255,0.5);
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 991px) {
+  .navbar-custom .nav-link::after {
+    bottom: -3px;
+  }
+}

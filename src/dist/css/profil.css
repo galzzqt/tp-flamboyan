@@ -1,0 +1,48 @@
+/* Profile.css */
+body {
+    font-family: 'Poppins', sans-serif !important;
+  }
+  
+.profile-page .hero-section {
+  background: linear-gradient(rgba(47, 47, 47, 0.8), rgba(15, 15, 15, 0.8)), url('/src/assets/img/hero.jpeg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    margin-bottom: 50px;
+  }
+  
+  .profile-page h1, .profile-page h2, .profile-page h3 {
+    color: #ffffff;
+  }
+  
+  .profile-page .lead {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  .profile-page blockquote {
+    border-left: 5px solid #3498db;
+    padding-left: 20px;
+    margin: 20px 0;
+    font-style: italic;
+  }
+  
+  .profile-page .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-page .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .profile-page .card-img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 767px) {
+    .profile-page .card-img {
+      height: 300px;
+    }
+  }
+  

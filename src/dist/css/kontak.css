@@ -1,0 +1,50 @@
+.contact-page {
+    background-color: #f8f9fa;
+  }
+  
+  .contact-page h1 {
+    color: #000B58;
+    font-weight: bold;
+  }
+  
+  .contact-card, .map-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .contact-card:hover, .map-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  
+  .contact-card h3, .map-card h3 {
+    color: #000B58;
+    font-weight: bold;
+  }
+  
+  .contact-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info .icon {
+    color: #000B58;
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+  
+  .map-container {
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  @media (min-width: 992px) {
+    .map-container {
+      height: 100%;
+    }
+  }
+  

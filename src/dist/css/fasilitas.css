@@ -1,0 +1,101 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+  padding-top: 60px; /* Adjust this value based on your navbar height */
+}
+
+.facilities-page .hero-section {
+  background: linear-gradient(rgba(47, 47, 47, 0.8), rgba(15, 15, 15, 0.8)), url('/src/assets/img/hero.jpeg') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  margin-bottom: 50px;
+}
+  
+  .facilities-page .facility-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .facilities-page .facility-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .facilities-page .icon-wrapper {
+    font-size: 3rem;
+    color: #000B58;
+    margin-bottom: 1rem;
+  }
+  
+  .facilities-page .card-title {
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  .facilities-page .card-text {
+    color: #7f8c8d;
+  }
+  
+  .facilities-page .cta-section {
+    background-color: #f8f9fa;
+  }
+  
+  .facilities-page .btn-primary {
+    background-color: #000B58;
+    border-color: #000B58;
+    color: #ffffff;
+  }
+  
+  .facilities-page .btn-primary:hover,
+  .facilities-page .btn-primary:focus,
+  .facilities-page .btn-primary:active {
+    background-color: #000940;
+    border-color: #000940;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 2rem; /* Was likely 2.5rem or 3rem before */
+}
+
+h2 {
+    font-size: 1.75rem; /* Was likely 2rem or 2.25rem before */
+}
+
+h3 {
+    font-size: 1.5rem; /* Was likely 1.75rem or 2rem before */
+}
+
+h4 {
+    font-size: 1.25rem; /* Was likely 1.5rem before */
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 1.25rem; /* Adjust as needed */
+}
+
+.navbar-custom .nav-link {
+    font-size: 0.9rem; /* Adjust as needed */
+}
+
+.hero-section h1 {
+    font-size: 2.5rem; /* Adjust as needed */
+}
+
+.hero-section p {
+    font-size: 1rem; /* Adjust as needed */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Adjust as needed */
+}
+
+.card-text {
+    font-size: 0.9rem; /* Adjust as needed */
+}
+
+.btn {
+    font-size: 0.9rem; /* Adjust as needed */
+}
